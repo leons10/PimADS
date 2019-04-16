@@ -1,0 +1,146 @@
+Nossa empresa irá gerenciar um software de gerenciamento de carros
+
+Nome de empresa: LGL Solution 
+
+Empresa que irá contratar nosso software: EMPRESA GERENCIADORA DE FROTAS
+
+EMPRESA QUE O NOSSO CLIENTE ATENDE : EMPRESA DE TELECOM (ERICSON, NET, VIVO, TIM);
+
+1 - Veículos 
+- Lista/Array De uma tabela com a listagem de todos os veículos
+
+modelo 
+ano
+cor
+cambio
+sinistro
+km
+chassis
+placa
+Estado de conservação
+Combustível
+
+//
+2 - Seguros
+- Lista de tabela do seguro
+nº da apolice
+rastreador?
+cobre danos para terceiros
+cobre danos morais?
+período da vigência
+Cobertura do seguro
+
+
+//
+3 - Motoristas (CNH, exames medicos etc.)
+ - 
+Nome,
+Nº CNH
+Data de nascimento
+Data de expiração CNH
+Exame médico / data do exame feito
+CPF/RG (Incluir o digito)
+Estado emissor
+categoria da habilitação
+EAR Exerce Atividade Remuneração
+
+
+//
+4 - Viagens (rotas, ocupantes do veículo etc)
+ROTA ORIGEM/DESTINO
+QTD KM
+Ocupantes Veículos
+Estimativa da viagem (minutos
+Duração real da viagem entre o ponto de origem e destino (minutos)
+
+
+//
+5 - Entrada/Saída (de garagens credenciais ou estacionamento)
+Data/horário entrada
+Data/horário saída
+Pessoa que retira e pessoa que guarda
+
+
+//
+6 - Finanças
+Controle de fluxo de caixa 
+ 
+
+
+//
+7 - Estoque de peças
+Produto
+Data Entrada
+Data saída
+Valor
+Data que terá que ser feito a troca
+
+
+//
+8 - Pneus
+Modelo 
+Condições
+
+
+
+//
+9 - Manutenções Corretivas e Preventivas
+UTILIZAR ASSOCIAÇÃO COM TABELA DE VEÍCULOS E CRIAR ENTIDADE PARA REALIZARS O CONTROLE DAS MANUTENÇÕES
+
+
+
+
+//
+10 - Abastecimentos
+CRIAR TABELA E FUNCIONALIDADE DENTRO DE UMA PÁGINA/GUIA QUE INFORME E REGISTRE HISTÓRICO PARA CONTROLE DE 
+GASTOS E ABASTECIMENTOS/AUTONOMIA POR VEÍCULO
+
+//
+11 - Quilometragem
+CONTROLE DE HISTÓRICO DE QUILOMETRAGEM POR VEÍCULOS PARA REALIZAR MANUTENÇÕES
+
+
+//
+12 - Multas
+NOME DO MOTORISTA QUE ESTAVA DIRIGINDO
+DATA DA MULTA
+GRAVIDADE
+PONTOS
+VALOR
+MODELO DO CARRO QUE ESTAVA DIRIGINDO
+PLACA
+
+//
+13 - Sinistros
+ASSOCIAR A SEGURADORA/SEGURO
+APOLICE/N CONTRATO/COBERTURA E DATA DE ACIONAMENTO/VALOR FRANQUIA
+CAUSA DO SINISTRO
+
+//
+14 - Avisos automaticos (pelo celular ao motorista etc.)
+NOTIFICAÇÕES SOBRE MULTAS/INFO GERAL SOBRE O VEICULO/ROTA/MANUTENÇÃO
+CRITICIDADES ENCONTRADAS POR SUPERVISOR AO EXTRAIR/ANALISAR RELATÓRIO 
+
+//
+
+15 - Relatórios (Acidentes, Consumo, Revisões etc)
+REVISÃO / SELECT DE INFORMAÇÕES DA TABELA QUE ENVOLVE AS INFORMAÇÕES E TRANSFORMAR EM UM EXCEL
+ANALISE E ASSOCIAÇÃO PARA FAZER MANUTENÇÕES PREVENTIVAS/CONSUMO DE COMBUSTIVEL, ETC.
+CRIAR FUNCIONALIDADE DE CRITICIDADE SOBRE VEÍCULO/MOTORISTA E ENVIAR NOTIFICAÇÕES (AVISOS AUTOMATICOS)
+
+
+//
+
+
+16 - Aluguel de veículos ao cliente (frota interna pequena).
+MODELO VEÍCULO
+PLACA
+ANO
+COR
+PARA QUAL CLIENTE?
+DATA DO ALUGUEL SAÍDA
+DATA DO ALUGUEL RETORNO 
+VALOR/DIA
+VEICULO ASSEGURADO?
+
+
